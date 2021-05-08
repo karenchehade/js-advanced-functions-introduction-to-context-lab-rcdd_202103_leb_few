@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function createEmployeeRecord(employees) {
 return {
   firstName: employees[0],
@@ -49,4 +50,14 @@ function findEmployeeByFirstName(arr, firstName) {
 
 function calculatePayroll(arr) {
 	return arr.reduce((total, e) => allWagesFor(e) + total, 0);
+=======
+function batteryBatches(firstname, familyname, title, payhour) {
+const em={
+  first: firstname,
+  last : familyname,
+  title : title,
+  payPerHour: payhour
+}
+
+>>>>>>> 98c05d04622d2cf832e355936702170486172ee0
 }
